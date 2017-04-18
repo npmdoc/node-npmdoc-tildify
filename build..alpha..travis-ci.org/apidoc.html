@@ -61,12 +61,37 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.tildify">module tildify</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.tildify.tildify">
+            function <span class="apidocSignatureSpan"></span>tildify
+            <span class="apidocSignatureSpan">(str)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.tildify" id="apidoc.module.tildify">module tildify</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.tildify.tildify" id="apidoc.element.tildify.tildify">
+        function <span class="apidocSignatureSpan"></span>tildify
+        <span class="apidocSignatureSpan">(str)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">tildify = function (str) {
+	str = path.normalize(str) + path.sep;
+	return (str.indexOf(home) === 0 ? str.replace(home + path.sep, &#x27;~&#x27; + path.sep) : str).slice(0, -1);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
