@@ -1,9 +1,14 @@
-# api documentation for  [tildify (v1.2.0)](https://github.com/sindresorhus/tildify#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-tildify.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-tildify) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-tildify.svg)](https://travis-ci.org/npmdoc/node-npmdoc-tildify)
+# npmdoc-tildify
+
+#### api documentation for  [tildify (v1.2.0)](https://github.com/sindresorhus/tildify#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-tildify.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-tildify) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-tildify.svg)](https://travis-ci.org/npmdoc/node-npmdoc-tildify)
+
 #### Convert an absolute path to a tilde path: `/Users/sindresorhus/dev` → `~/dev`
 
-[![NPM](https://nodei.co/npm/tildify.png?downloads=true)](https://www.npmjs.com/package/tildify)
+[![NPM](https://nodei.co/npm/tildify.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/tildify)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-tildify/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-tildify_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-tildify/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-tildify/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-tildify/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-tildify/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-tildify/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-tildify/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Sindre Sorhus",
-        "email": "sindresorhus@gmail.com",
         "url": "sindresorhus.com"
     },
     "bugs": {
@@ -61,13 +65,11 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "sindresorhus",
-            "email": "sindresorhus@gmail.com"
+            "name": "sindresorhus"
         }
     ],
     "name": "tildify",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/sindresorhus/tildify.git"
@@ -78,16 +80,6 @@
     "version": "1.2.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module tildify](#apidoc.module.tildify)
-
-
-
-# <a name="apidoc.module.tildify"></a>[module tildify](#apidoc.module.tildify)
 
 
 
