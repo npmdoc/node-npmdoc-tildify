@@ -1,6 +1,6 @@
 # npmdoc-tildify
 
-#### api documentation for  [tildify (v1.2.0)](https://github.com/sindresorhus/tildify#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-tildify.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-tildify) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-tildify.svg)](https://travis-ci.org/npmdoc/node-npmdoc-tildify)
+#### basic api documentation for  [tildify (v1.2.0)](https://github.com/sindresorhus/tildify#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-tildify.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-tildify) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-tildify.svg)](https://travis-ci.org/npmdoc/node-npmdoc-tildify)
 
 #### Convert an absolute path to a tilde path: `/Users/sindresorhus/dev` → `~/dev`
 
@@ -77,7 +77,8 @@
     "scripts": {
         "test": "xo && ava"
     },
-    "version": "1.2.0"
+    "version": "1.2.0",
+    "bin": {}
 }
 ```
 
